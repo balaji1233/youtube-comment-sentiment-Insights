@@ -1,15 +1,15 @@
 # YouTube Sentiment Analysis 👍👎😊
 
-This project provides a web application for sentiment analysis of YouTube comments. It allows users to input a YouTube link and analyzes the sentiment of the comments associated with that video. The application also displays video information, channel information, and visualizations of the sentiment analysis results.
-
+This project introduces a dynamic web application that performs rigorous sentiment analysis on YouTube comments. Users can submit a YouTube link, and the application scrutinizes the sentiment of the associated comments. Additionally, it exhibits video details, channel specifics, and graphical representations of the sentiment analysis outcomes.
 ## Features ✨
 
-- Extracts the video ID from a YouTube link.
-- Retrieves comments from the specified YouTube video and saves them to a CSV file. 💬📑
-- Performs sentiment analysis on the comments using the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool. 😃😠😐
-- Generates bar charts and scatter plots to visualize the sentiment analysis results. 📊📈
-- Retrieves video and channel information from the YouTube API. 📺🔍
-- Provides an interactive web interface using Streamlit. 🌐✨
+ -Derives the video ID from a given YouTube link.
+ -Harvests comments from the designated YouTube video and archives them in a CSV file. 💬📑
+ -Executes sentiment analysis on the comments utilizing the VADER (Valence Aware Dictionary and sEntiment 
+  Reasoner) sentiment analysis instrument. 😃😠😐
+ -Fabricates bar charts and scatter plots to illustrate the sentiment analysis findings. 📊📈
+ -Procures video and channel specifics from the YouTube API. 📺🔍
+-Offers an interactive web interface via Streamlit. 🌐✨
 
 ## Installation 🛠️
 
@@ -17,7 +17,7 @@ This project provides a web application for sentiment analysis of YouTube commen
 
 2. Install the required dependencies:
 
-3. Obtain a YouTube Data API key from the [Google Cloud Console](https://console.cloud.google.com/) and replace `YOUR_API_KEY` in `app.py` with your actual API key.
+3. Obtain a YouTube Data API key from the [Google Cloud Console](https://console.cloud.google.com/) and replace `YOUR_API_KEY` in `YoutubeCommentScrapper.py` with your actual API key.
 
 4. Run the application:
 
@@ -32,13 +32,8 @@ This project provides a web application for sentiment analysis of YouTube commen
 
 4. Explore the sentiment analysis results, video information, and channel information. 📈📺
 
-## Contributing 🤝
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License 📄
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 
